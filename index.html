@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stone Paper Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Stone Paper Scissor</h1>
+    </div>
+    <div class="container">
+        <img src="rock1.png" alt="Stone" id="stone">
+        <img src="paper1.jpeg" alt="Paper" id="paper">
+        <img src="scissor1.png" alt="Scissor" id="scissor">
+    </div>
+    <div class="container" id="result">
+        <h2 id="display">You Won</h2>
+    </div>
+    <!-- <div class="scoreBoard">
+        <h1>Score-Board</h1>
+    </div> -->
+    <div class="scoreBoard container">
+        <h2>Score-Board</h2>
+        <table>
+            <tr>
+                <th>You</th>
+                <th>Computer</th>
+            </tr>
+            <tr>
+                <td id="yourScore"><p>0</p></td>
+                <td id="compScore"><p>0</p></td>
+            </tr>
+        </table>
+    </div>
+    <div class="container">
+        <button onClick="window.location.href=window.location.href">Fresh Start</button>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+
+</html>
