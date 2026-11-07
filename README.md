@@ -2,4 +2,4 @@ This is a dynamic and responsive website. On this website, you can play an amazi
 This gameing website also have a dynamic scoreboard, which reflects your realtime score.
 This webapp is made using the technology of HTML, CSS and JS
 
-Last updated: 2026-11-07 19:50 UTC
+Last updated: 2026-11-07 23:22 UTC
